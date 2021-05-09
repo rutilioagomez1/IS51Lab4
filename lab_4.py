@@ -12,3 +12,25 @@ break statement.
 if the user could not guess the correct answer within the max_tries, then print
 "You have used up your allotment of guesses." the print "The correct answer is 'California'".
 """
+
+"""
+
+main
+    question = "What is the capital of California"
+    answer = "California"
+    ask(question, answer)
+
+
+ask
+    tries = 0
+    loop three tries
+        increment tries
+        ask user input()
+        check to see if user input is equal to answer
+            if so, print "Correct" the exit loop
+    if not correct
+        print to the user "You have used up your allotment of guesess."
+        print the correct answer "The correct answer is 'California'"
+
+main
+"""
